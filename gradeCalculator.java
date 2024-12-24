@@ -1,3 +1,5 @@
+package GradeCalculator;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -17,6 +19,7 @@ public class gradeCalculator {
 
     private static void initializeGUI() {
 
+        // Setting color variables
         Color beige = new Color(255, 232, 214);
         Color skin = new Color(221, 190, 169); 
 
@@ -206,7 +209,7 @@ public class gradeCalculator {
         for (int target : targetGrades) {
             double requiredFinal = (target - totalWeightedGrade) / (remainingWeight / 100);
 
-                
+
                 textArea.append(String.format("To finish with %d%%: %.2f%%\n", target, requiredFinal));
         }
 

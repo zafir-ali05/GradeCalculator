@@ -1,4 +1,6 @@
-// Inner class for assignment details
+package GradeCalculator;
+
+
 public class Assignment {
     private final String name;
     private final double grade;

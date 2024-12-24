@@ -1,2 +1,6 @@
 # GradeCalculator
 Simple grade calculator to calculate what is needed on the final exam to attain a certain grade.
+
+Enter Directory: cd ZafirA, cd GradeCalculator
+Compile commands: javac /home/zafir/ZafirA/GradeCalculator/GradeCalculator/*.java
+Run Command: java ZafirA/GradeCalculator/GradeCalculator gradecalculator
